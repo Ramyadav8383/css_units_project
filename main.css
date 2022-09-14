@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+.navbar {
+  color: red;
+  height: 100px;
+}
+.navbar ul {
+  list-style: none;
+  font-size: 2rem;
+}
+.showcase {
+  background: black;
+  color: #fff;
+  min-height: calc(100vh - 100px);
+  opacity: 0.9;
+}
+.showcase h3 {
+  color: red;
+  text-transform: uppercase;
+}
+.showcase h2 {
+  font-size: 2rem;
+}
+.btn {
+  background: red;
+  color: white;
+}
