@@ -3,8 +3,11 @@
 }
 .navbar {
   background: white;
+  height: 6rem;
+}
+.logo {
   color: red;
-  height: 7rem;
+  font-size: 3rem;
 }
 .navbar ul {
   list-style: none;
@@ -13,17 +16,19 @@
 .hero {
   background: rgba(0, 0, 0, 0.9);
   color: #fff;
-  min-height: calc(100vh - 7rem);
+  min-height: calc(100vh - 6rem);
 }
-.hero span {
+.text-primary {
   color: red;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
-.hero h2 {
-  font-size: 2rem;
+.hero h1 {
+  font-size: 3rem;
 }
-.btn {
+.hero-btn {
   background: red;
   color: white;
+  border: none;
   /* padding: 1rem; */
 }
